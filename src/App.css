@@ -36,12 +36,19 @@ h1 {
 
 .x-hover:hover::after {
   content: "X";
-  opacity: 0.4;
+  opacity: 0.2;
+  font-style: italic;
+  font-weight: 200;
+  transition: transform 2s ease-in-out;
+  transform: scale(0.8);
 }
 
 .o-hover:hover::after {
   content: "O";
-  opacity: 0.4;
+  opacity: 0.2;
+  font-style: italic;
+  transition: transform 2s ease-in-out;
+  transform: scale(0.8);
 }
 
 .strike {
